@@ -1,0 +1,12 @@
+body{
+    font-size : 20px;
+    background-color : #fff000;
+}
+
+ h1{
+    color : red;
+    align-content: center;
+
+.form-input{
+    display : block;
+}

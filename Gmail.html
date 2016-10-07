@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> My SignUp Page </title>
+    <link href="css/style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="signup-box">
+  <form class="createaccount-form" id="createaccount" name="createaccount" action="success.html" method="post">
+  <div class="form-element multi-field name" id="name-form-element">
+  <fieldset>
+  <legend><strong>Name</strong></legend>
+  <label id="firstname-label" class="firstname">
+  <strong>First name</strong>
+  <input n="1" value="" name="FirstName" id="FirstName" spellcheck="false" type="text">
+  <span style="display: block;" class="placeholder-text" id="firstname-placeholder">First</span>
+  </label>
+  <label id="lastname-label" class="lastname">
+  <strong>Last name</strong>
+  <input n="2" value="" name="LastName" id="LastName" spellcheck="false" type="text">
+  <span style="display: block;" class="placeholder-text" id="lastname-placeholder">Last</span>
+  </label>
+  </fieldset>
+  
+  </div>
+  <div class="form-element email-address" id="gmail-address-form-element">
+  <label id="gmail-address-label">
+  <strong>
+  Choose your username
+  </strong>
+  <input n="3" maxlength="30" autocomplete="off" name="GmailAddress" id="GmailAddress" value="" spellcheck="false" type="text">
+  <span class="atgmail">@gmail.com</span>
+  </label>
+  
+  </div>
+  </div>
+  <div class="form-element" id="password-form-element">
+  <label id="password-label">
+  <strong>Create a password</strong>
+  <input aria-invalid="true" class=" form-error" n="4" name="Passwd" id="Passwd" type="password">
+  </label>
+  
+  <div class="form-element" id="confirm-password-form-element">
+  <label id="confirm-password-label">
+  <strong>Confirm your password</strong>
+  <input n="5" name="PasswdAgain" id="PasswdAgain" type="password">
+  </label>
+  
+  </div>
+  
+  <div class="form-element" id="gender-form-element">
+  <label id="gender-label">
+  <strong id="GenderLabel">Gender</strong>
+  <div id="Gender"><div title="Gender" aria-activedescendant=":d" aria-haspopup="true" tabindex="0" aria-expanded="false" style="-moz-user-select: none;" role="listbox" class="goog-inline-block goog-flat-menu-button jfk-select"><div aria-posinset="0" aria-setsize="3" role="option" id=":d" class="goog-inline-block goog-flat-menu-button-caption">I am...</div><div aria-hidden="true" class="goog-inline-block goog-flat-menu-button-dropdown">&nbsp;</div></div><input id="HiddenGender" name="Gender" ></div>
+  </label>
+  <span role="alert" class="errormsg" id="errormsg_0_Gender">
+  </span>
+  </div>
+  <div class="form-element" id="phone-form-element">
+  <label id="phone-label" for="RecoveryPhoneNumber">
+  <strong id="RecoveryPhoneNumberLabel">Mobile phone</strong>
+  </label>
+  <input value="IN" name="RecoveryPhoneCountry" id="RecoveryPhoneCountry" >
+  <table class="i18n_phone_number_input i18n_phone_number_input-empty"><tbody><tr><th class="i18n_phone_number_input-menu i18n_phone_number_input-loRes"><div title="Mobile phone" aria-haspopup="true" tabindex="0" aria-expanded="false" style="-moz-user-select: none;" role="listbox" class="goog-inline-block i18n-phone-select-country"><div class="goog-inline-block i18n-phone-select-country-caption"><div style="background-position: 0px -1694px;" class="i18n-phone-flag"></div></div><div aria-hidden="true" class="goog-inline-block i18n-phone-select-country-dropdown">&nbsp;</div></div></th><td class="i18n_phone_number_input-input"><input class="i18n_phone_number_input-inner_input" tabindex="0" name="RecoveryPhoneNumber" id="RecoveryPhoneNumber" value="" type="tel"></td></tr></tbody></table>
+  
+  <span role="alert" class="errormsg" id="errormsg_0_RecoveryPhoneNumber">
+  </span>
+  </div>
+  <div class="form-element recovery-email" id="recovery-email-form-element">
+  <label id="recovery-email-label">
+  <strong>Your current email address</strong>
+  <input n="6" name="RecoveryEmailAddress" id="RecoveryEmailAddress" value="" spellcheck="false" type="text">
+  </label>
+  
+
+
+ 
+  <div class="form-element nextstep-button">
+  <input id="submitbutton" name="submitbutton" value="Next step" class="g-button g-button-submit" type="submit">
+  </div>
+  </form>
+  </div>
+    
+    
+</body>
+</html>

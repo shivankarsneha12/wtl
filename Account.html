@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title> CREATE ACCOUNT </title>
+	<link rel="stylesheet" type="text/css" href="css/account.css">
+</head>
+<body>
+	<form method="post" action="Account.html" method="post" role="form">
+
+	<label for="name"> Your Full Name </label>
+	<input type="text" name="sname" id="sname" class="form-control" required=""/>
+
+	<label for="mobile"> Mobile Number </label>
+	<input type="number" name="mobile" id="mobile" class="form-control" required=""/>
+
+	<label for="rno"> Roll No (if applicable)</label></br>
+	<input type="text" name="rno" id="rno" class="form-control"/>
+
+	<label for="email"> Email </label></br>
+	<input type="email" name="semail" id="semail" class="form-control" required="">
+
+	
+	<label for="user"> Enter Username </label></br>
+	<input type="text" name="user" id="user" maxlength="5" class="form-control" required=""/>
+	<span id="usererr"></span><br/><br/>
+
+	<label for="cpass"> Enter Password </label></br>
+	<input type="password" place-holder="Repeat-Password" name="cpass" id="cpass" maxlength="25" class="form-control" class="form-input" required="required"/>
+
+
+		<label for="submit">  </label>
+		<input type="submit"  name="submitform" id="submit" class="input-form" value="Create Account" required="required">
+	</form>
+
+	<script src="js/account.js"></script>
+</body>
+</html>

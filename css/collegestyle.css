@@ -1,0 +1,79 @@
+body{
+	font-family: Arial,Sans-Serif;
+}
+
+#logo{
+	display: block;
+	margin: 0 auto;
+}
+
+nav{
+	background-color: #5f5f5f;
+	position: fixed;
+	width: 100%;
+	margin-left: -0.5em;
+	z-index: 10;
+}
+
+nav>ul li{
+	list-style: none;
+	display: inline;
+	margin-left: 6em;
+}
+
+nav>ul li a{
+	text-decoration: none;
+	font-size: 1.5em;
+	color: white;
+}
+
+#content{
+	margin-top: 5em;
+}
+
+footer{
+	position: fixed;
+	background-color: #5f5f5f;
+	color: white;
+	width: 100%;
+	margin-left: -0.5em;
+	text-align: center;
+	bottom: 0;
+}
+
+#left, #right{
+	position: relative;
+	float: left;
+}
+
+#left{
+		width: 20%;
+}
+
+#right{
+	width: 70%;
+	margin-left: 1.5em;
+}
+
+#news{
+	display: block;
+	border: 3px dotted black;
+	padding: 5px;
+}
+
+blockquote{
+	background-color: yellow;
+	padding: 10px;
+}
+
+#news>span{
+	display: block;
+	text-align: center;
+	font-size: 1.5em;
+	color: blue;
+	margin-top: 0.5em;
+}
+
+#news>ul li{
+	margin-top: 0.7em;
+}
